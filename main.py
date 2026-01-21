@@ -18,6 +18,8 @@ if register_store.establish_connection(): # check connection to Modbus server
         test = conversions.dec_to_string(register_store.get_register_value(65001)) # read URR string using specified encoding
         print(test)
        
+        # test
+        print(test)
     
 
 
