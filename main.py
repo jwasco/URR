@@ -20,6 +20,7 @@ if register_store.establish_connection(): # check connection to Modbus server
        
         # test
         print(test)
+        print(test)
     
 
 
